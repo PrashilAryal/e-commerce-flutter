@@ -1,5 +1,7 @@
 import 'package:e_commerce/pages/home.dart';
 import 'package:e_commerce/pages/bottomnav.dart';
+import 'package:e_commerce/pages/onboard.dart';
+import 'package:e_commerce/pages/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,6 +38,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const Home(),
       home: const BottomNav(),
+      // home: const Onboard(),
     );
 
   }

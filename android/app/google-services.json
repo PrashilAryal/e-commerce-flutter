@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192792740908",
+    "project_id": "ecommerce-gears",
+    "storage_bucket": "ecommerce-gears.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192792740908:android:34bf64711da0d397adbd89",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoVB2cDzLoX44ApzlO43oDQHlGk3oOsFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
