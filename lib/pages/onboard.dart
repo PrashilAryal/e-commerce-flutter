@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:e_commerce/main.dart';
 import 'package:e_commerce/widgets/widget_support.dart';
@@ -89,7 +88,7 @@ class _OnboardState extends State<Onboard> {
                 Navigator.pushReplacement(
                     // context, MaterialPageRoute(builder: (context) => Signup()));
                     context,
-                    MaterialPageRoute(builder: (context) => Signup()));
+                    MaterialPageRoute(builder: (context) => SignUp()));
               }
               _controller.nextPage(
                   duration: Duration(milliseconds: 100),

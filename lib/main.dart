@@ -1,10 +1,18 @@
+import 'package:e_commerce/admin/admin_login.dart';
 import 'package:e_commerce/pages/home.dart';
 import 'package:e_commerce/pages/bottomnav.dart';
 import 'package:e_commerce/pages/onboard.dart';
 import 'package:e_commerce/pages/signup.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp();
+  } catch (e) {
+    print('Error initializing Firebase: $e');
+  }
   runApp(const MyApp());
 }
 
@@ -37,7 +45,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const Home(),
-      home: const BottomNav(),
+      // home: const BottomNav(),
+      home: const AdminLogin(),
+
       // home: const Onboard(),
     );
 
